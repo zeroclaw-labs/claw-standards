@@ -1,0 +1,1 @@
+{"error":{"code":-32000,"message":"Agent task failed: needs_quickstart: gateway has no model configured. Complete browser quickstart at /quickstart, or set [providers.models.<type>.<alias>] model = \"...\" before sending messages."},"id":2,"jsonrpc":"2.0"}

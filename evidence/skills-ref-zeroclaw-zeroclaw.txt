@@ -1,0 +1,3 @@
+$ skills-ref validate ../../.claude/skills/zeroclaw   # skills-ref@0.1.5 (npm package skills-ref, obtained via: npm exec --yes skills-ref@latest)
+Valid skill: ../../.claude/skills/zeroclaw
+EXIT CODE: 0

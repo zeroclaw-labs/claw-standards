@@ -1,0 +1,3 @@
+$ skills-ref validate ../../.claude/skills/changelog-generation   # skills-ref@0.1.5 (npm package skills-ref, obtained via: npm exec --yes skills-ref@latest)
+Valid skill: ../../.claude/skills/changelog-generation
+EXIT CODE: 0

@@ -1,0 +1,45 @@
+FAILED tests/compatibility/core_operations/test_error_handling.py::TestJsonRpcErrorStructure::test_a2a_error_type_mappings
+FAILED tests/compatibility/core_operations/test_error_handling.py::TestJsonRpcErrorStructure::test_error_data_contains_error_info
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-SEND-001-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-SEND-003-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-GET-002-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-LIST-001-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-LIST-002-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-LIST-003-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-LIST-004-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-LIST-005-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-CANCEL-003-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-EXECUTION-MODE-001-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-EXECUTION-MODE-002-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-MULTI-001a-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-MULTI-002a-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-MULTI-003-jsonrpc]
+FAILED tests/compatibility/core_operations/test_requirements.py::test_must_requirement[CORE-MULTI-004-jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_history.py::TestHistoryLengthLimit::test_get_task_history_does_not_exceed_limit[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestGetTask::test_get_task_returns_current_state[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestCancelTask::test_cancel_task_returns_updated_state[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestCancelTask::test_cancel_terminal_task_returns_error[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestMultiTurn::test_send_message_to_terminal_task[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestMultiTurn::test_infer_context_from_task[jsonrpc]
+FAILED tests/compatibility/core_operations/test_task_lifecycle.py::TestMultiTurn::test_reject_mismatching_context[jsonrpc]
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_task_not_found_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_task_not_cancelable_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_push_notification_not_supported_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_unsupported_operation_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_content_type_not_supported_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeMappings::test_version_not_supported_error
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeRange::test_error_code_in_valid_range[GetTask-nonexistent]
+FAILED tests/compatibility/jsonrpc/test_error_codes.py::TestJsonRpcErrorCodeRange::test_error_code_in_valid_range[CancelTask-nonexistent]
+FAILED tests/compatibility/jsonrpc/test_error_info.py::TestJsonRpcErrorInfo::test_error_data_is_array
+FAILED tests/compatibility/jsonrpc/test_error_info.py::TestJsonRpcErrorInfo::test_data_contains_error_info
+FAILED tests/compatibility/jsonrpc/test_error_info.py::TestJsonRpcErrorInfo::test_error_info_valid
+FAILED tests/compatibility/jsonrpc/test_error_info.py::TestJsonRpcErrorInfo::test_error_info_reason_matches_condition
+ERROR tests/compatibility/core_operations/test_data_model.py::TestSendMessageResponseSchema::test_response_validates_against_schema
+ERROR tests/compatibility/core_operations/test_data_model.py::TestCamelCaseFieldNames::test_no_snake_case_keys
+ERROR tests/compatibility/core_operations/test_data_model.py::TestEnumSerialization::test_enum_values_are_strings
+ERROR tests/compatibility/core_operations/test_data_model.py::TestTimestampFormat::test_timestamps_are_iso8601_utc
+ERROR tests/compatibility/core_operations/test_transport_behavior.py::TestJsonRpcFormat::test_response_validates_jsonrpc_envelope
+ERROR tests/compatibility/core_operations/test_transport_behavior.py::TestJsonRpcFormat::test_content_type_is_application_json
+45 failed, 17 passed, 167 skipped, 30 deselected, 6 errors in 3.30s
+Command: <zeroclaw-workspace>/.context/standards/tools/a2a-tck/.venv/bin/python3 -m pytest tests/compatibility/ --sut-host=http://127.0.0.1:43617/a2a/probe --tb=short -m must -q --compatibility-report=reports/compatibility --html=reports/tck_report.html --self-contained-html --junitxml=reports/junitreport.xml
+

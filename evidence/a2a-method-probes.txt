@@ -1,0 +1,6 @@
+tasks/get => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}
+tasks/cancel => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}
+tasks/list => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}
+message/stream => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}
+tasks/subscribe => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}
+agent/getAuthenticatedExtendedCard => {"error":{"code":-32601,"message":"Method not found: only message/send is supported on this build"},"id":1,"jsonrpc":"2.0"}

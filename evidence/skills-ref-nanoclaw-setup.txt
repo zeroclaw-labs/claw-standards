@@ -1,0 +1,3 @@
+$ skills-ref validate checkouts/nanoclaw/.claude/skills/setup   # skills-ref@0.1.5 (npm package skills-ref, obtained via: npm exec --yes skills-ref@latest)
+Valid skill: checkouts/nanoclaw/.claude/skills/setup
+EXIT CODE: 0

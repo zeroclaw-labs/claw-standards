@@ -1,0 +1,10 @@
+# skills-ref@0.1.5 (pinned local install), run 2026-07-02 (reconciliation pass)
+# Target: nanoclaw@aecad86 container/skills/* — NanoClaw's agent-facing (product-plane) skills, mounted RO at /app/skills per src/container-runner.ts#L346-L349
+== agent-browser: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/agent-browser/
+== frontend-engineer: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/frontend-engineer/
+== onecli-gateway: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/onecli-gateway/
+== self-customize: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/self-customize/
+== slack-formatting: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/slack-formatting/
+== vercel-cli: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/vercel-cli/
+== welcome: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/welcome/
+== whatsapp-formatting: EXIT 0 :: Valid skill: checkouts/nanoclaw/container/skills/whatsapp-formatting/

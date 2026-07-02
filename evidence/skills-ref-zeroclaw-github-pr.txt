@@ -1,0 +1,4 @@
+$ skills-ref validate ../../.claude/skills/github-pr   # skills-ref@0.1.5 (npm package skills-ref, obtained via: npm exec --yes skills-ref@latest)
+Validation failed for ../../.claude/skills/github-pr:
+  - SKILL.md must start with YAML frontmatter (---)
+EXIT CODE: 1

@@ -1,0 +1,9 @@
+$ skills-ref validate evidence/synthetic-skill-test/unknown-field-probe   # skills-ref@0.1.5 (npm package skills-ref, obtained via: npm exec --yes skills-ref@latest)
+Validation failed for evidence/synthetic-skill-test/unknown-field-probe:
+  - Unexpected fields in frontmatter: author. Only allowed-tools, compatibility, description, license, metadata, name are allowed.
+EXIT CODE: 1
+
+--- CONTROL: identical skill minus the author field ---
+$ skills-ref validate evidence/synthetic-skill-test/unknown-field-probe-control
+Valid skill: evidence/synthetic-skill-test/unknown-field-probe-control
+EXIT CODE: 0
